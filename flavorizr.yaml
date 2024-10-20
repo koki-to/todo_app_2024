@@ -1,0 +1,32 @@
+ide: "vscode"
+app:
+  android:
+    flavorDimensions: "flavor-type"
+flavors:
+  dev:
+    app:
+      name: "todo_app_2024 Dev"
+    android:
+      applicationId: "com.sampleapp.todo_app_2024.dev"
+      icon: "assets/dev/app-icon.png"
+    ios:
+      bundleId: "com.sampleapp.todoApp2024.dev"
+      icon: "assets/dev/app-icon.png"
+  stg:
+    app:
+      name: "todo_app_2024 Stg"
+    android:
+      applicationId: "com.sampleapp.todo_app_2024.stg"
+      icon: "assets/stg/app-icon.png"
+    ios:
+      bundleId: "com.sampleapp.todoApp2024.stg"
+      icon: "assets/stg/app-icon.png"
+  prod:
+    app:
+      name: "todo_app_2024"
+    android:
+      applicationId: "com.sampleapp.todo_app_2024"
+      icon: "assets/prod/app-icon.png"
+    ios:
+      bundleId: "com.sampleapp.todoApp2024"
+      icon: "assets/prod/app-icon.png"
